@@ -44,7 +44,7 @@ export default function Home() {
       {/* Capabilities Section */}
       <Section id="services" className="bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
         <div className="max-w-6xl mx-auto relative z-10">
-          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-16 text-center">Capabilities</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-16 text-center">Services</h2>
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
             <div className="bg-white p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-accent-200 transition-all duration-300 group hover:-translate-y-1">
               <div className="w-12 h-12 mb-6 rounded-xl bg-gradient-to-br from-accent-500 to-accent-600 flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
