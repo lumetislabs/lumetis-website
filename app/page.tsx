@@ -94,12 +94,21 @@ export default function Home() {
             <svg className="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            <a
-              href="mailto:admin@lumetislabs.com"
-              className="text-xl font-semibold text-accent-600 hover:text-accent-700 transition-colors"
-            >
-              admin@lumetislabs.com
-            </a>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+              <a
+                href="mailto:admin@lumetislabs.com"
+                className="text-xl font-semibold text-accent-600 hover:text-accent-700 transition-colors"
+              >
+                admin@lumetislabs.com
+              </a>
+              <span className="hidden sm:inline text-slate-400">|</span>
+              <a
+                href="mailto:lumetislabs@gmail.com"
+                className="text-xl font-semibold text-accent-600 hover:text-accent-700 transition-colors"
+              >
+                lumetislabs@gmail.com
+              </a>
+            </div>
           </div>
         </div>
       </Section>

@@ -2,123 +2,168 @@ import type { Metadata } from 'next'
 import Section from '@/components/Section'
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions — Lumetis Labs',
-  description: 'Terms & Conditions for Lumetis Labs.',
+  title: 'Terms of Use — Lumetis Labs',
+  description: 'Terms of Use for Lumetis Labs.',
 }
 
 export default function Terms() {
   return (
     <Section className="pt-20 md:pt-32">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-8">Terms & Conditions</h1>
+        <h1 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-8">Terms of Use</h1>
         
-        <div className="prose prose-gray max-w-none space-y-6 text-gray-600 leading-relaxed">
-          <p className="text-sm text-gray-500 mb-8">Last updated: January 2025</p>
+        <div className="prose prose-gray max-w-none space-y-6 text-slate-600 leading-relaxed">
+          <div className="mb-8 space-y-2 text-sm text-slate-500">
+            <p><strong>Effective Date:</strong> November 2025</p>
+            <p><strong>Entity:</strong> LUMETIS LABS LLC</p>
+          </div>
+
+          <div className="border-t border-gray-200 my-8"></div>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Agreement to Terms</h2>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing or using the Lumetis Labs website and services, you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, you may not access or use our services.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Use License</h2>
-            <p className="mb-4">
-              Permission is granted to temporarily access and use the materials on Lumetis Labs&apos; website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Modify or copy the materials</li>
-              <li>Use the materials for any commercial purpose or for any public display</li>
-              <li>Attempt to reverse engineer any software contained on the website</li>
-              <li>Remove any copyright or other proprietary notations from the materials</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Service Description</h2>
-            <p>
-              Lumetis Labs provides software development, publishing, and partnership services. We reserve the right to modify, suspend, or discontinue any aspect of our services at any time without prior notice.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Intellectual Property</h2>
-            <p>
-              The website and its original content, features, and functionality are owned by Lumetis Labs LLC and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">User Accounts</h2>
-            <p>
-              If you create an account with us, you are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Prohibited Uses</h2>
-            <p className="mb-4">You may not use our website or services:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>In any way that violates any applicable law or regulation</li>
-              <li>To transmit any material that is defamatory, offensive, or otherwise objectionable</li>
-              <li>To impersonate or attempt to impersonate another person or entity</li>
-              <li>In any way that infringes upon the rights of others</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Disclaimer</h2>
-            <p>
-              The materials on Lumetis Labs&apos; website are provided on an &quot;as is&quot; basis. Lumetis Labs makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Limitations</h2>
-            <p>
-              In no event shall Lumetis Labs or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Lumetis Labs&apos; website, even if Lumetis Labs or an authorized representative has been notified orally or in writing of the possibility of such damage.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Links to Third-Party Websites</h2>
-            <p>
-              Our website may contain links to third-party websites or services that are not owned or controlled by Lumetis Labs. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Termination</h2>
-            <p>
-              We may terminate or suspend your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms & Conditions.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Governing Law</h2>
-            <p>
-              These Terms & Conditions shall be governed by and construed in accordance with the laws of the State of Wyoming, United States, without regard to its conflict of law provisions.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Changes to Terms</h2>
-            <p>
-              We reserve the right, at our sole discretion, to modify or replace these Terms & Conditions at any time. If a revision is material, we will provide at least 30 days notice prior to any new terms taking effect.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Contact Us</h2>
-            <p>
-              If you have any questions about these Terms & Conditions, please contact us at:
+              By downloading or using any Lumetis Labs application or visiting our website, you agree to these Terms of Use and our Privacy Policy.
             </p>
             <p className="mt-4">
-              Lumetis Labs LLC<br />
-              5830 E 2nd St, Ste 7000 #29490<br />
-              Casper, WY 82609, USA<br />
-              Email: admin@lumetislabs.com
+              If you do not agree, do not use our Services.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">2. Scope</h2>
+            <p>
+              These Terms apply to all Lumetis Labs mobile applications published on the Apple App Store and Google Play Store, and to our website lumetislabs.com.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">3. License to Use</h2>
+            <p>
+              Lumetis Labs grants you a limited, non-exclusive, non-transferable license to use our apps for personal, non-commercial purposes in accordance with these Terms.
+            </p>
+            <p className="mt-4">
+              You may not copy, modify, distribute, sell, or lease any part of our apps or reverse-engineer their code.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">4. Intellectual Property</h2>
+            <p>
+              All trademarks, content, text, code, graphics, and designs within our apps and website are owned or licensed by LUMETIS LABS LLC.
+            </p>
+            <p className="mt-4">
+              You retain ownership of any personal content you create or save within the app, but you grant Lumetis Labs a non-exclusive license to display and process that content within the app&apos;s features.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">5. Subscriptions &amp; Payments</h2>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>In-app purchases and subscriptions are processed exclusively through the Apple App Store and Google Play Store.</li>
+              <li>Lumetis Labs does not collect or store your payment details.</li>
+              <li>Refunds, billing disputes, and cancellations must be managed through the respective store&apos;s policies.</li>
+            </ul>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">6. Notifications</h2>
+            <p>
+              By enabling notifications, you consent to receive inspirational and, occasionally, promotional messages.
+            </p>
+            <p className="mt-4">
+              You may disable notifications at any time in your device settings.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">7. Prohibited Conduct</h2>
+            <p className="mb-4">You agree not to:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Use our Services for unlawful purposes or to infringe any rights.</li>
+              <li>Attempt to gain unauthorized access to systems or servers.</li>
+              <li>Use automated systems or scripts to extract data.</li>
+              <li>Upload or distribute malware, spam, or harmful content.</li>
+            </ul>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">8. Disclaimer of Warranties</h2>
+            <p>
+              Our Services are provided &quot;as is&quot; and &quot;as available.&quot;
+            </p>
+            <p className="mt-4">
+              Lumetis Labs disclaims all warranties, express or implied, including fitness for a particular purpose, reliability, or availability.
+            </p>
+            <p className="mt-4">
+              We do not guarantee that our Services will be error-free or uninterrupted.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">9. Limitation of Liability</h2>
+            <p>
+              To the maximum extent permitted by law, Lumetis Labs shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of our Services, including data loss, interruption, or loss of profits.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">10. Termination</h2>
+            <p>
+              We may suspend or terminate your access to our Services at any time, with or without notice, if you violate these Terms or engage in fraudulent or abusive conduct.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">11. Governing Law &amp; Dispute Resolution</h2>
+            <p>
+              These Terms are governed by the laws of the State of Wyoming, USA, without regard to conflict-of-laws principles.
+            </p>
+            <p className="mt-4">
+              Any dispute shall be resolved through binding arbitration in Wyoming, and you waive any right to participate in class-action litigation.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">12. Changes to These Terms</h2>
+            <p>
+              We may update these Terms at any time by posting the new version on our website. The date at the top indicates the latest revision. Continued use of our Services constitutes acceptance of the revised Terms.
+            </p>
+          </section>
+
+          <div className="border-t border-gray-200 my-8"></div>
+
+          <section>
+            <h2 className="text-xl font-semibold text-slate-900 mb-4">13. Contact</h2>
+            <p className="mb-4">
+              For questions about these Terms:
+            </p>
+            <p className="mt-4">
+              LUMETIS LABS LLC<br />
+              📧 admin@lumetislabs.com | lumetislabs@gmail.com<br />
+              📍 5830 E 2nd St, Ste 7000 #29490, Casper, WY 82609 USA
             </p>
           </section>
         </div>
@@ -126,4 +171,3 @@ export default function Terms() {
     </Section>
   )
 }
-
