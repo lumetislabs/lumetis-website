@@ -6,10 +6,10 @@ import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
   title: 'Lumetis Labs — Software Publishing Studio',
-  description: 'Lumetis Labs is a modern software publishing studio creating, developing, and managing digital products for clients and our own portfolio.',
+  description: 'Lumetis Labs is an independent app studio creating, developing, and managing digital products — primarily our own portfolio of mobile applications.',
   openGraph: {
     title: 'Lumetis Labs — Software Publishing Studio',
-    description: 'Lumetis Labs is a modern software publishing studio creating, developing, and managing digital products for clients and our own portfolio.',
+    description: 'Lumetis Labs is an independent app studio creating, developing, and managing digital products — primarily our own portfolio of mobile applications.',
     type: 'website',
     locale: 'en_US',
   },

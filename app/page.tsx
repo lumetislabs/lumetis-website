@@ -18,7 +18,7 @@ export default function Home() {
             <span className="gradient-text">connected world</span>.
           </h1>
           <p className="text-xl md:text-2xl text-slate-600 mb-12 leading-relaxed max-w-2xl mx-auto">
-            Lumetis Labs is a modern software publishing studio creating, developing, and managing digital products for clients and our own portfolio.
+            Lumetis Labs is an independent app studio creating, developing, and managing digital products — primarily our own portfolio of mobile applications, and occasionally in collaboration with select partners.
           </p>
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <Button href="#contact">Get in touch</Button>
@@ -32,10 +32,10 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-8">About</h2>
           <div className="space-y-6 text-slate-600 leading-relaxed">
             <p className="text-lg">
-              We are a software publishing studio focused on creating digital products that matter. Our approach combines technical excellence with thoughtful design, ensuring that every product we build serves a clear purpose and delivers value.
+              We are a modern software publishing studio focused on creating digital products that matter. Our approach combines technical excellence with thoughtful design to ensure every app we build serves a clear purpose and delivers value.
             </p>
             <p className="text-lg">
-              Whether working with clients or developing our own portfolio, we maintain the same standards: clean architecture, intuitive interfaces, and reliable performance.
+              While our main focus is developing and publishing our own portfolio of applications, we also collaborate with like-minded creators and brands on select projects that align with our mission.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-4">App Development</h3>
               <p className="text-slate-600 leading-relaxed">
-                We design and build custom applications tailored to your needs, from mobile apps to web platforms. Our development process emphasizes clean code, scalability, and user experience.
+                We design and build mobile applications with clean architecture, scalability, and a strong focus on user experience. Our process emphasizes long-term maintainability and quality over quantity.
               </p>
             </div>
             <div className="bg-white p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-accent-200 transition-all duration-300 group hover:-translate-y-1">
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Software Publishing</h3>
               <p className="text-slate-600 leading-relaxed">
-                We manage the complete lifecycle of software products, from concept to launch and beyond. This includes strategy, development, distribution, and ongoing maintenance.
+                We manage the entire lifecycle of our digital products — from concept to launch and beyond. This includes strategy, development, distribution, analytics, and continuous improvement.
               </p>
             </div>
             <div className="bg-white p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-accent-200 transition-all duration-300 group hover:-translate-y-1">
@@ -76,7 +76,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Partnerships</h3>
               <p className="text-slate-600 leading-relaxed">
-                We collaborate with clients and partners to bring innovative ideas to market. Our partnership approach is built on transparency, communication, and shared success.
+                We occasionally collaborate with select partners to bring innovative ideas to market. Our partnerships are built on transparency, technical excellence, and shared purpose.
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center animate-fade-in-up">
           <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-6">Let&apos;s work together</h2>
           <p className="text-lg text-slate-600 leading-relaxed mb-8">
-            Have a project in mind? We&apos;d love to hear from you. Reach out to discuss how we can help bring your vision to life.
+            Have a great idea or want to collaborate? We&apos;d love to hear from you. Reach out to discuss potential synergies or learn more about our apps.
           </p>
           <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-br from-accent-50 to-accent-100/50 rounded-2xl border border-accent-200/50">
             <svg className="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
