@@ -25,7 +25,7 @@ export default function Terms() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Use License</h2>
             <p className="mb-4">
-              Permission is granted to temporarily access and use the materials on Lumetis Labs' website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+              Permission is granted to temporarily access and use the materials on Lumetis Labs&apos; website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Modify or copy the materials</li>
@@ -70,14 +70,14 @@ export default function Terms() {
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Disclaimer</h2>
             <p>
-              The materials on Lumetis Labs' website are provided on an "as is" basis. Lumetis Labs makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+              The materials on Lumetis Labs&apos; website are provided on an &quot;as is&quot; basis. Lumetis Labs makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Limitations</h2>
             <p>
-              In no event shall Lumetis Labs or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Lumetis Labs' website, even if Lumetis Labs or an authorized representative has been notified orally or in writing of the possibility of such damage.
+              In no event shall Lumetis Labs or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Lumetis Labs&apos; website, even if Lumetis Labs or an authorized representative has been notified orally or in writing of the possibility of such damage.
             </p>
           </section>
 

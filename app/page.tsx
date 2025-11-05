@@ -86,9 +86,9 @@ export default function Home() {
       {/* Contact Section */}
       <Section id="contact" className="bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-2xl mx-auto text-center animate-fade-in-up">
-          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-6">Let's work together</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900 mb-6">Let&apos;s work together</h2>
           <p className="text-lg text-slate-600 leading-relaxed mb-8">
-            Have a project in mind? We'd love to hear from you. Reach out to discuss how we can help bring your vision to life.
+            Have a project in mind? We&apos;d love to hear from you. Reach out to discuss how we can help bring your vision to life.
           </p>
           <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-br from-accent-50 to-accent-100/50 rounded-2xl border border-accent-200/50">
             <svg className="w-5 h-5 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
